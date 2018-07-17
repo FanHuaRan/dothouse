@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DotHouse.Repository
 {
-    public interface IHouseRepository:IEntityBaseDao<House>
+    public class HouseUsageRepository:EntityBaseDao<HouseUsage>, IHouseUsageRepository
     {
     }
 }
