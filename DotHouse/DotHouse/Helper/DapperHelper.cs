@@ -425,5 +425,3 @@ namespace DotHouse.Helper
         #endregion
     }
 }
-
-}

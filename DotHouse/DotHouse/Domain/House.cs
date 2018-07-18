@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 
 namespace DotHouse.Domain
 {
+    /// <summary>
+    /// 二手房
+    /// </summary>
     public class House
     {
         /// <summary>
         /// 主键
         /// </summary>
-        public long Id { get; set; }
+        public Int32 Id { get; set; }
 
         /// <summary>
         /// 单价
